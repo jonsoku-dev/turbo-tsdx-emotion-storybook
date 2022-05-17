@@ -10,8 +10,10 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+      "tsdx": "yarn workspace tsdx-test",
+      "tsdx-storybook": "yarn workspace tsdx-storybook"
+    },
   "devDependencies": {
     "prettier": "latest",
     "turbo": "latest"
